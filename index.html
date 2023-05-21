@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Challenge ONE Sprint 01: Decodificador de texto com Javascript</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="./assets/img/logoalura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section>
+        <textarea class="text-area" cols="41" rows="4" placeholder="Digite o seu texto"></textarea>
+
+        <div class="informação">
+            <h6>Apenas letras minúsculas e sem acento.</h6>
+        </div>
+
+        <div class="botoes">
+            <button class="btn-encriptar"onClick="btnEncriptar()">Criptografar</button>
+            <button class="btn-desencriptar"onClick="btnDesencriptar()">Descriptografar</button>            
+        </div>
+    </section>
+
+    <section>
+        <div class="retangulo"></div>
+            <img class="boneco" src="/assets/img/boneco.png" alt="Imagem boneco com uma lupa.">
+        </div>
+        <div class="aviso">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <p>Digite um texto que você deseja criptografar ou descriptografar. </p>
+        </div>
+        <textarea class="mensagem" cols="20" rows="10"></textarea>        
+        <button class="btn-copiar">Copiar</button>
+
+    </section>
+    </main>
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>&#169; 2023 - Desenvolvido por Virgílio P Costa</p>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/Virgiliopc" target="_blank"><i class="fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/virgilio-pires-da-costa/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+        </div>
+    </footer>
+
+    <script src="/scripts/script.js"></script>    
+    
+</body>
+</html>
