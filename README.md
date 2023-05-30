@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./assets/img/one-education.png" max-width="800">
+    <img src="./assets/img/encriptador.gif" max-width="800">
 </p>
  
  <h1>Challenge ONE Sprint 01: Decodificador de texto com Javascript</h1>
