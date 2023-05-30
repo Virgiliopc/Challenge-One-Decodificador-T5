@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Challenge ONE Sprint 01: Decodificador de texto com Javascript</title>    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/reset.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-    </style>
-</head>
+        <title>Challenge ONE Sprint 01: Decodificador de texto com Javascript</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/reset.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+        </style>
+    </head>
 
-<body>
-    <main>
-        <div class="container">
-            <header>
-                <img class="logo-alura" src="./assets/img/logoalura.png" alt="Logo da Alura">
-            </header>
+    <body>
+        <main>
+            <div class="container">
+                <header>
+                    <img class="vector-alura" src="/assets/img/logoalura.png" alt="Logo da Alura">
+                </header>
 
-            <section class="mensagem-entrada">
-                <textarea class="entrada" cols="41" rows="4" placeholder="Digite o seu texto"></textarea>
+                <section class="entrada-mensagem">
+                    <textarea class="entrada" placeholder="Digite seu texto"></textarea>
 
-                <div class="informação">
-                    <img src="/assets/img/exclamacao.svg" class="aviso-img">
-                    <p>Apenas letras minúsculas e sem acento.</p>
-                </div>
+                    <div class="informação">
+                        <img src="/assets/img/exclamacao.svg" class="aviso-img">
+                        <p>Apenas letras minúsculas e sem acento</p>
+                    </div>
 
-                <div class="buttons">
-                    <button id="btnEncriptar">Criptografar</button>
-                    <button id="btnDescriptar">Descriptografar</button>
-                </div>
-            </section>
+                    <div class="decodificadores">
+                        <button id="button-cripto">Criptografar</button>
+                        <button id="button-descripto">Descriptografar</button>
+                    </div>
 
-            <section class="mensagem-saida">
-                <div class="tela-inicial">
-                    <img class="boneco" src="/assets/img/boneco.png" alt="Imagem boneco com uma lupa.">
-                    <h1>Nenhuma mensagem encontrada</h1>
-                    <p>Digite um texto que você deseja criptografar ou descriptografar. </p>
-                </div>
-                <div class="tela-final">
-                    <textarea class="saida"></textarea>
-                    <button id="btnCopiar">Copiar</button>
-                </div>
-            </section>
+                </section>
+
+                <section class="saida-mensagem">
+                    <div class="tela-inicial">
+                        <img src="/assets/img/boneco.png">
+                        <h1>Nenhuma mensagem encontrada</h1>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+                    </div>
+
+                    <div class="tela-final">
+                        <textarea class="saida"></textarea>
+                        <button id="button-copy">Copiar</button>
+                    </div>
+                </section>
+            </div>
+
+            <script src="/scripts/script.js"></script>
+        </main>
+
+    </body>
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>&#169; 2023 - Desenvolvido por Virgílio P Costa</p>
         </div>
 
-        <script src="/scripts/script.js"></script>
-
-    </main>
-</body>
-
-
-<footer class="footer">
-    <div class="copyright">
-        <p>&#169; 2023 - Desenvolvido por Virgílio P Costa</p>
-    </div>
-
-    <div class="links">
-        <a href="https://github.com/Virgiliopc" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/virgilio-pires-da-costa/" target="_blank"><i
-                class="fa fa-linkedin-square"></i></a>
-    </div>
-</footer>
+        <div class="links">
+            <a href="https://github.com/Virgiliopc" target="_blank"><i class="fa fa-github-square"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/virgilio-pires-da-costa/" target="_blank"><i
+                    class="fa fa-linkedin-square"></i></a>
+        </div>
+    </footer>
 
 </html>
