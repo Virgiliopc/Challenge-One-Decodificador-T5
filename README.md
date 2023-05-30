@@ -12,7 +12,7 @@
 
 <ul>
    <li>
-      <strong>Criptografar:</strong> Essa função permite criptografar uma mensagem de texto. Existem duas opções de criptografia disponíveis: Alura e Code_Alvorecer. Cada opção utiliza uma técnica de criptografia diferente.
+      <strong>Criptografar:</strong> Essa função permite criptografar uma mensagem de texto.
    </li>
   
    <li>
